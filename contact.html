@@ -11,31 +11,45 @@
 
 <body>
   
-  <div class="header">
-     <div id="header_name">
-      <h1>Jerry D. House</h1>
-     </div>
-      <a href="index.html" target="About Me">About Me</a>
-      <a href="portfolio.html" target="Portfolio">Portfolio</a>
-      <a href="contact.html" target="Contact Me">Contact Me</a>
-  </div> 
+<div class="header">
+  <div id="name">
+    <h1>Jerry D. House</h1>
+  </div>
 
-<h2>Contact Me</h2>
+  <div id="links"> 
+    <a href="index.html" target="About Me">About Me</a>
+    <a href="portfolio.html" target="Portfolio">Portfolio</a>
+    <a href="contact.html" target="Contact Me">Contact Me</a>
+  </div>
+</div> 
 
-<form action="./contact.html">
-    Name:<br>
-    <input type="text" name="Name">
+<div class="container">
+  <section id="content">
+
+      <h2 id=content_header>Contact Me</h2>
+
+  <form action="./contact.html">
+    <label for="fname">Full Name</label><br>
+    <input type="text" id="fname" name="Full Name" placeholder="Your Name">
+    
     <br>
-    Email:<br>
-    <input type="text" name="Email">
+   
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="Email" placeholder="Your Email">
+    
     <br>  
-    Message:<br>
-    <input type="text" name="Message">
-    <br>
-    <button>
-        Submit
-    </button>
 
+    <label for="message">Message</label><br>
+    <textarea id="message" name="Message" placeholder="Tell me something cool..">
+
+    </textarea>
+
+    <br>
+
+    <input type="submit" value: Submit>
+</form>
+  </section>
+</div>
 
 <footer class="footer"> copyright@
   </footer>
