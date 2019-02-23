@@ -103,13 +103,11 @@
 }
 
 /* Grid build for Portfolio page*/
-.image_container_1 {
+.image_container {
   margin: 20px;
+  display: inline-block;
  }
 
-.image_container_2 {
-  margin: 20px;
-}
 /*images*/
 .images {
   margin: 2px;
