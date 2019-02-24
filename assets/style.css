@@ -37,17 +37,11 @@
     text-decoration: none;
     word-spacing: 1px; 
     padding: 2px;
-    border: 5px;
+    border: 10px;
     width: 30%; 
     margin-top: -40px;
     margin-right: 112px; 
   }
-
-  /*settings to get links divided by verticle bar
-  li {
-    display: inline-block;
-
-  }*/
 
   /*settings for "About Me", "Portfolio", and "Contact Me" headers*/
   #content_header {
@@ -87,6 +81,7 @@
     border-color:#dddddd;
     margin-bottom: 30px;
   }
+
 /*my photo*/
 .image_me {
   float: left; 
