@@ -30,9 +30,7 @@
    #links {
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: right;
-    list-style-type: inline;
     position: sticky;
-    position: -webkit-sticky;
     text-align: center;
     text-decoration: none;
     word-spacing: 1px; 
@@ -65,7 +63,7 @@
     height: auto;
     margin: 2% 10%;
     padding: 10px 50px 50px 50px;
-    border: 1px solid color #dddddd;
+    border: 1px solid #dddddd;
     box-sizing: border-box;
     background-color: #ffffff;
    }
@@ -157,7 +155,7 @@ input[type=submit] {
   .footer{
     text-align: center;
     height: 30px;
-    position: relative;
+    position: sticky;
     margin-top: -30px;
     bottom: 0;
     background-color:#666666;
