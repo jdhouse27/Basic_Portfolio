@@ -148,13 +148,22 @@ li {
 
 @media only screen and (max-width: 640px){
 #sidenav {
-    position: sticky;
     width: 100%;
     top: 0;
     left:0;
-    height: 250px;
-    padding: 10px;
+    height: 150px;
+    position: absolute;
     }
+
+#sidenav a {
+    padding: 2px 4px 2px 8px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #818181;
+    text-shadow: 2px 2px 4px black; 
+    display: block;
+    text-align: left;
+  }
 
 .my-logo{
     height: 50px;
@@ -162,7 +171,7 @@ li {
     }
 
 #profile {
-    margin-top: 250px;
+    margin-top: 150px;
     height: 650px;
     }
 
