@@ -1,0 +1,27 @@
+#card-contact {
+    background-color: rgb(61, 62, 63);
+    width: 350px;
+    height: 500px;
+    top: -750px;
+    z-index: 1;
+    padding: 30px;
+    position: inherit;
+    left: 100px;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px black; 
+}
+
+#mapid {
+    height:800px;
+    width: 100%;
+    z-index: 0;
+}
+
+.social-icons-contact {
+    padding: 25px;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+
+

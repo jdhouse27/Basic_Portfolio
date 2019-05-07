@@ -1,63 +1,452 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>J.D.'s Bio</title>
-  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Bootstrap JQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+  <!-- Leaflet CSS -->
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+  integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+  crossorigin=""></script>
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/begin.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/resume.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/portfolio.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/contact.css">
 
+
+  <title>Jerry D. House</title>
 </head>
-
 <body>
-  
-<!--Main header with links-->
-<div class="header">
-  <div id="name">
-    <h1>Jerry D. House</h1>
-  </div>
-
-  <div id="links">
-    
-     <a href="index.html" target="About Me">About Me</a> |
-     <a href="portfolio.html" target="Portfolio">Portfolio</a> |
-     <a href="contact.html" target="Contact Me">Contact Me</a>
-  
-  </div>
-</div>    
-
-<!--Begining of main content-->
-<div class="container">
-   <section id="content">
-    <h2 id=content_header>About Me</h2>
-
-        <hr><!--Line under header-->
-    
-    <p class="image_me"><span>
-      <img src="https://lh3.googleusercontent.com/FdEf-FwyUWAZds6hfeL2Nr4Z8xbAcrO2EuOugZO-W1us3ywNYmbyaLwvfetFQu_nXEuVppQxepMtalcsYXcn4vu85Y4J5oYN0f0d82h8mVwN_qvqGLvnXVZ1sv2QCk-tevDiFLF3kTC75yg472vTQRa4sheG8dqQUepcHNVTPy8p4RPoxNTogMiQIAil2x0gfStwKcpNeUZ-UmzZ5CztxTqw-I-fxdUhjuLsuOuZNZGBIVlz3QluZcLP5B2HvHXmVMijH9HDC6TvV9_2z_rTGjH2Z5imFBkbS3rg1GPLSPBkqH8X_UX2hfZx9Zb6B8XiLctiS7osbZvNXQ7leFgaY6nenlCeyuZEBeHWT-l6FKQvKyl0rCD-In4BsnzIrtpiYGAZrUFLuAxednwmelM6AfObnoVge-Dc5cq8geEiA8TY6GFIC5-dieIdD2nNNlGpslL3gBOwGdBUknsrpgdgqlxSRslysFVCYtfaofLjEiNY9JZC17zE22zm1FL9a1aM0d3ti183sh7G4gdnngHya_YEWNtgfr2ihpv_zDGKoe6KSYTGW8fzat8zulBhSZb68L8FgaSO5bO2AWW007mSAKCVgVXxMKt6rpHxfF-dXeN9p2Yi6qOKywgzCdQ1dlSgZoo0zbekxA_in3qAxZoXWIekgDPWQao=w122-h224-no" alt="Me">
-          </span>
-    </p> 
-
-    <div class="AboutMeText">
-        <p>  Where do I begin?  I suppose I should start at the beginning.  I started off, as most do with computers, in that I was terrified if I got into an area of the unknown
-           I would surely break something beyond possible fixing.  This series of unfortunate events would not only distroy my pride, but also would end up costing me more then 
-           I could ever dream of.  I will admit there are still many areas that scare the living daylights out of me.  However, by the time I finish the KU Bootcamp I will have 
-           gained many skills which have not only allowed me to face my fears head on, but also given me the confidence the developer I am today.  One who is now a developer of 
-           choice to employers.   
-        </p>
-      
-        <p>
-          I have always been good at things I put my mind to and I look forward to the next chapters in my life.  I have experience in health care, food and beverage, management,
-           owner of a business, and now web development.  My experience in health care consists of 9 years as a Registered Respiratory Therapist, as well as 3 years of EMR application 
-           support.  In the Food and Beverage industry I have experience in all aspects, server, bartender, expoditor, cook, manager, general manager, and owner. My experience with 
-           web development has just begun, however throughout this website you will notice the many skills I currently have. Though my expertise may not be extremely advanced yet 
-           I live by a motto my grandfather taught me: "Lack of progression leads to regression".  I am always looking for new growth and advancement. 
-        </p>
+<!-- Header  -->
+  <header id="sidenav" class="shadow p-3 mb-5 bg-white rounded">
+    <!-- Logo -->
+    <div>
+        <a href="#profile"><img class="my-logo" src="./assets/images/Image-1.png" alt="" /></a>
     </div>
- </section> 
-</div>
 
-<footer class="footer">
-  copyright@
-</footer>
+    <br>
+      
+    <!-- Navigation -->
+    <ul class="menu">
+      <li class="menu-item"><a href="#profile"><span>Profile</span><i id="menu-icon" class="fa fa-user"></i></a></li>
+        <li class="menu-item"><a href="#resume"><span>Resume</span><i id="menu-icon" class="fas fa-pen-fancy"></i></a></li>
+        <li class="menu-item"><a href="#portfolio"><span>Portfolio</span><i id="menu-icon" class="fa fa-desktop"></i></a></li>
+        <li class="menu-item"><a href="#contact"><span>Contact</span><i id="menu-icon" class="fa fa-phone"></i></a></li>
+    </ul>
+    
+    <!-- Social Icons -->
+    <ul class="social-icons-profile">
+      <li class="left-icons"><a href="https://www.facebook.com/jd.house.12"><i class="fab fa-facebook fa-fw"></i></a></li>
+      <li class="left-icons"><a href="https://www.linkedin.com/in/jdhouse1/"><i class="fab fa-linkedin fa-fw"></i></a></li>
+      <li class="left-icons"><a href="https://github.com/jdhouse27?tab=repositories"><i class="fab fa-github fa-fw"></i></a></li>
+    </ul>
+    
+    <!-- Copyright -->
+    <!-- <p id="copyright">© 2019 <b>Jerry D. House</b></p> -->
+
+  </header>
+  <!-- Header / End -->
+
+  <!-- Page content -->
+  <div class="main">
+    <!-- Profile Content -->
+    <section id="profile">
+      <a name="profile"></a>
+      <div class="row">
+        <div class="col-sm-0 col-md-3 col-lg-3"></div>
+        <div class="col-sm-12 col-md-7 col-lg-7">
+        <div class="profile-content">
+          <p id="name">Jerry D. House</p>
+          <p id="title">Professional Full Stack Designer & Developer</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button class="initial-resume">Go to my resume!</button>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+          <!-- Contact List -->
+          <ul id="my-contact-add">
+            <li id="contact-address"><i id="inline-icon" class="inline-icon fa fa-map-marker fa-fw"></i>103 Dorchester Drive, Plattsburg, Missouri 64477, USA</li>
+            <li id="contact-address" ><i id="inline-icon" class="inline-icon fa fa-comment fa-fw"></i><a id="email" href="#">jdhouse27@gmail.com</a></li>
+            <li id="contact-address" ><i id="inline-icon" class="inline-icon fa fa-phone fa-fw"></i>816.560.6214</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume">
+      <a name="resume"></a>
+      <div class="content dimmed-effect padded-short">            
+        <div class="row">   
+          <div class="col-sm-0 col-md-3 col-lg-3"></div>           
+          <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="row">                              
+              <div class="col-sm-12 col-md-4 col-lg-4">              
+                <!-- Card - About Me -->
+                <div id="card-me">
+                  <div class="card-animated slide-in-top" style="width: 18rem;">
+                    <div class="card-body">
+                      <i class="title-icon text-blue far fa-comment"></i>
+                      <h3 class="card-title">Who am I?</h3>
+                      <p class="card-text">With just over 5 years of experience in technology I am not the most experienced in the field.  However, I do have experience in 
+                        healthcare, retail systems management, and full stack web development.  The experience I do have, my dedication to my career, and continued advancement
+                        of my career and knowlege makes me the perfect candidate for any project.  I enjoy meeting new people and creating lifelong contacts, as well as 
+                        learning new processes.</p>
+                        <a href="#portfolio" class="btn btn-black">See my portfolio</a> <a href="#contact" class="btn btn-default">Contact me</a>                    
+                    </div>
+                  </div>   
+                </div>
+              </div>  
+              <div class="col-sm-12 col-md-4 col-lg-4">         
+                <!-- Card - Specialities -->
+                <div id="card-special">
+                  <div class="card-animated slide-in-right" style="width: 18rem;">
+                    <div class="card-body">
+                      <i class="title-icon fas fa-boxes"></i>
+                      <h3 class="card-title">My Specialities</h3>
+                      <!-- Speciality -->
+                      <div class="speciality">
+                        <i class="speciality-icon far fa-lightbulb"></i>
+                          <div class="speciality-content">
+                            <h5 class="short">Web design</h5>
+                            <p class="speciaity-description">Innovated, and adaptive website designs.</p>
+                          </div>
+                      </div>
+                      <!-- Speciality -->
+                      <div class="speciality">
+                        <i class="speciality-icon fas fa-laptop-code"></i>
+                        <div class="speciality-content">
+                          <h5 class="short">Front-End Web Development</h5>
+                          <p class="speciaity-description">Great, modern website designs.</p>
+                        </div>
+                      </div>
+                      <!-- Speciality -->
+                      <div class="speciality">
+                        <i class="speciality-icon fas fa-tablet-alt"></i>
+                        <div class="speciality-content">
+                          <h5 class="short">App Design</h5>
+                          <p class="speciaity-description">Great, modern website designs.</p>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                </div>                    
+              </div>  
+
+              <div class="col-sm-12 col-md-4 col-lg-4">                  
+                <!-- Box - Hobbies -->
+                <div id="card-hobbies">
+                  <div class="card-animated slide-in-bottom" style="width: 18rem;">
+                    <div class="card-body">
+                      <i class="title-icon fas fa-fire"></i>
+                      <h3 class="card-title">Hobbies &amp; Interests</h3>
+                      <!-- List group -->
+                      <ul class="list-group">
+                        <li class="list-group-item">Family</li>
+                        <li class="list-group-item">Beer/Whiskey</li>
+                        <li class="list-group-item">Sports</li>
+                        <li class="list-group-item">Music</li>
+                        <li class="list-group-item">Technology</li>
+                        <li class="list-group-item">Kansas City</li>
+                        <li class="list-group-item">Anything Outdoors</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <!-- Card - Skills & Attributes -->
+                <div id="card-skils">
+                  <div class="card-animated slide-in-left appear-second" style="width: 18rem;">
+                    <div class="card-body">
+                      <i class="title-icon far fa-folder-open"></i>
+                      <h3 class="card-title">Skills &amp; Attributes</h3>
+                      <!-- HTML/CSS skill -->
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                      </div>
+                        <p class="skill-name">HTML/CSS</p>
+                      <!-- javascript skill -->
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                      </div>
+                        <p class="skill-name">javascript</p>
+                      <!-- jQuery skill -->
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                      </div>
+                        <p class="skill-name">jQuery</p>
+                      <!-- NodeJs skill -->
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                      </div>
+                        <p class="skill-name">NodeJs</p>
+                    </div>
+                  </div>                     
+                </div>                     
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <!-- Box - Education & Jobs -->
+                <div id="card-education">
+                  <div class="card-animated slide-in-left" style="width: 18rem;">
+                    <div class="card-body">
+                      <i class="title-icon fas fa-book-open"></i>
+                      <h3 class="card-title">Education & Jobs</h3>
+                      <div class="timeline">
+                        <!-- Single event -->
+                        <div class="container-right">
+                          <div class="timeline content">
+                            <div class="event-date">Feburary - August 2019</div>
+                            <div class="event-name">Full Stack Coding Bootcamp</div>
+                            <div class="event-description">Kansas University, Overland Park, Kansas</div>
+                          </div>
+                        </div>
+                        <!-- Single event -->
+                        <div class="container-right">
+                          <div class="timeline content">
+                            <div class="event-date">March 2019 - Present</div>
+                            <div class="event-name">Hallmark Point of Sale System Support</div>
+                            <div class="event-description">Retail Systems Management, Kansas City, Missouri</div>
+                          </div>
+                        </div>
+                        <!-- Single event -->
+                        <div class="container-right">
+                          <div class="timeline content">
+                            <div class="event-date">September 2009 - December 2018</div>
+                            <div class="event-name">Application Support</div>
+                            <div class="event-description">Mosaic Life Care, Saint Joseph, Missouri</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-0 col-md-1 col-lg-1"></div> 
+        </div>
+      </div>
+    </section>
+    <!-- Resume / End -->
+    <br>
+    <!-- Portfolio -->
+    <section id="Portfolio">
+      <a name="portfolio"></a>
+      <!-- Projects Holder -->
+    	<div class="projects-holder black dark clearfix">
+        <div class="row">
+          <div class="col-sm-0 col-md-3 col-lg-3"></div>           
+          <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="row">
+              <!-- Single Project --> 
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="single-project">                 
+                  <div id="project-mask-1">
+                  <img class="project-image" src="./assets/images/pump_atstation.png" alt="">
+                    <div id="project-info-1" class="project-info">
+                      <div class="project-title">Fuel Me Now</div>
+                      <div class="project-caption">Web Design & Development</div>
+                      <div class="project-buttons"> 
+                        <a href="https://jdhouse27.github.io/Fuel/." target="https://jdhouse27.github.io/Fuel/." id="project-btn" class="btn btn-default btn-md">Check it out</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Single Project --> 
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="single-project">
+                  <div id="project-mask-2">
+                  <img class="project-image" src="./assets/images/background-boxer.jpg" alt="" />
+                    <div id="project-info-2" class="project-info">
+                      <div class="project-title">Boxing Game</div>
+                      <div class="project-caption">Web Design & Development</div>
+                      <div class="project-buttons">
+                          <a href="https://jdhouse27.github.io/unit-4-game/" target="https://jdhouse27.github.io/unit-4-game/" id="project-btn" class="btn btn-default btn-md">Check it out</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Single Project --> 
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="single-project">
+                  <div id="project-mask-3">
+                  <img class="project-image" src="./assets/images/glove_bg_01.jpg" alt="" />
+                    <div id="project-info-3" class="project-info">
+                      <div class="project-title">Trivia Game</div>
+                      <div class="project-caption">Web Design & Development</div>
+                      <div class="project-buttons">
+                          <a href="https://jdhouse27.github.io/TriviaGame/" target="https://jdhouse27.github.io/TriviaGame/" id="project-btn" class="btn btn-default btn-md">Check it out</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Single Project --> 
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="single-project">
+                  <div id="project-mask-4">
+                  <img class="project-image" src="./assets/images/station.jpg" alt="" />
+                    <div id="project-info-4" class="project-info">
+                      <div class="project-title">Train Tracker</div>
+                      <div class="project-caption">Web Design & Development</div>
+                      <div class="project-buttons">
+                          <a href="https://jdhouse27.github.io/Train_tracker/" target="https://jdhouse27.github.io/Train_tracker/" id="project-btn" class="btn btn-default btn-md">Check it out</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Single Project --> 
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="single-project">
+                  <div id="project-mask-5">
+                  <img class="project-image" src="./assets/images/coffee.jpg" alt="" />
+                    <div id="project-info-5" class="project-info">
+                      <div class="project-title">API Search</div>
+                      <div class="project-caption">Web Design & Development</div>
+                      <div class="project-buttons"> 
+                          <a href="https://jdhouse27.github.io/GIPHY_API/" target="https://jdhouse27.github.io/GIPHY_API/" id="project-btn" class="btn btn-default btn-md">Check it out</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Project --> 
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="single-project">
+                  <div id="project-mask-6">
+                  <img class="project-image" src="./assets/images/baseball_image.jpg" alt="" />
+                    <div id="project-info-6" class="project-info">
+                      <div class="project-title">Word Guess</div>
+                      <div class="project-caption">Web Design & Development</div>
+                      <div class="project-buttons">
+                          <a href="https://jdhouse27.github.io/Word-Guess-Game/" target="https://jdhouse27.github.io/Word-Guess-Game/" id="project-btn" class="btn btn-default btn-md">Check it out</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </div>
+          <div class="col-sm-0 col-md-1 col-lg-1"></div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <a name="contact"></a>
+        <div class="row">
+          <div class="col-md-12">
+          <!-- map -->
+          <div id="mapid"></div>
+          </div>
+        
+          <div class="row">
+            <div class="col-md-6"></div>           
+            <div class="col-md-4">
+            <!-- Contact Content -->
+            <div id="card-contact" class="card-body">
+                <div class="content contact-content padded dark animated slide-in-left">
+                  <h2>Don't hesitate to</h2>
+                  <h2><b>contact me!</b></h2>
+                  <br>
+                  <br>
+                    <!-- Contact List -->
+                      <p><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker fa-fw"></i>103 Dorchester Drive,<br/>Plattsburg, Missouri 64477, USA</p>
+                      <p><i class="inline-icon icon-before-and-after text-primary fa fa-comment fa-fw"></i><a href="#">jdhouse27@gmail.com</a></p>
+                      <p><i class="inline-icon icon-before-and-after text-primary fa fa-phone fa-fw"></i>816.560.6214</p>
+                    <br>
+                    <br>
+                    <br>
+                      <p><a href="#" class="btn btn-primary">Download my CV</a></p>
+                   
+                    <!-- Bottom Bar -->
+                    <div class="bottom-bar contact-bottom-bar">
+                      <!-- <div class="row"> -->
+                          <!-- <div class="col-md-12 col-lg-12"> -->
+                            <!-- Social Icons -->
+                            <ul class="social-icons-contact">
+                              <li><a href="https://www.facebook.com/jd.house.12"><i class="fab fa-facebook fa-fw"></i></a></li>
+                              <li><a href="https://www.linkedin.com/in/jdhouse1/"><i class="fab fa-linkedin fa-fw"></i></a></li>
+                              <li><a href="https://github.com/jdhouse27?tab=repositories"><i class="fab fa-github fa-fw"></i></a></li>
+                            </ul>
+                          <!-- </div> -->
+                      <!-- </div> -->
+                    </div>
+                </div>
+            </div> 
+            </div>
+          <div class="col-md-2"></div> 
+          
+                <!-- Contact Form -->
+                <!-- <div id="contact-form-holder" class="dark"> -->
+                  <!-- <div class="contact-form-trigger animated slide-in-right appear-second"><i class="flaticon-mail21"></i></div> -->
+                  <!-- <form role="form" id="contact-form" method="post"> -->
+                    <!-- <div class="form-group"> -->
+                      <!-- <label>Name:</label> -->
+                      <!-- <input type="text" class="form-control" id="name"  name="name" placeholder="Enter your name" required> -->
+                    <!-- </div> -->
+                    <!-- <div class="form-group"> -->
+                      <!-- <label>Email:</label> -->
+                      <!-- <input type="email" class="form-control" id="email"  name="email" placeholder="Enter your email" required> -->
+                    <!-- </div> -->
+                    <!-- <div class="form-group"> -->
+                      <!-- <label>Message:</label> -->
+                      <!-- <textarea class="form-control" id="message" name="message" rows="3"></textarea> -->
+                    <!-- </div> -->
+                    <!-- <button type="submit" class="btn btn-default">Submit <i class="icon-after fa fa-chevron-right"></i></button> -->
+                  <!-- </form> -->
+                <!-- </div>              -->        
+        </div>             
+    </section>
+    <!-- Contact / End -->       
+  </div>
+
+<!-- Footer -->
+  <footer>
+    <div class="copyright-container">
+      <p id="copyright">© 2019 <b>Jerry D. House</b></p>
+    </div>
+  </footer>
+
+<!-- Javascript -->
+  <script type="text/javascript" src="./assets/javascript/contact.js"></script>
+  <script type="text/javascript" src="./assets/javascript/portfolio.js"></script>
+
 </body>
+
 </html>

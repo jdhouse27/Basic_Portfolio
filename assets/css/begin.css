@@ -1,0 +1,172 @@
+.menu {
+    display: block;
+    padding-inline-start: 40px;
+    list-style-type: none;
+}
+
+#sidenav {
+    height: auto;
+    width: 250px;
+    position: fixed;
+    z-index: 3;
+    top: 20;
+    left: 20;
+    background-image: url("../images/nav-bg.jpg");
+    overflow-x: hidden;
+    padding-top: 20px;  
+  }
+  
+ #sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    text-shadow: 2px 2px 4px black; 
+    display: block;
+    text-align: left;
+  }
+  
+#sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+.my-logo{
+    margin-left: 15px;
+    height: 200px;
+    width: 140px;
+}
+
+#menu-icon {
+    margin-left: 15px;
+}
+
+
+#profile {
+    background-image: url("../images/ideaBook.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.profile-content {
+    text-align: left;
+    padding: 25px;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px black; 
+    margin-top: 50px;
+}
+
+#name {
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+#title {  
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.initial-resume {
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px black; 
+    background-color: #0b5eca;
+    padding-left: 5px;
+    border-radius: 3px;
+    margin-left: 25px;   
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact-address {
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 30px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 4px black; 
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+}
+
+#my-contact-add {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#email {
+    color:antiquewhite;
+    text-shadow: 2px 2px 4px black; 
+}
+
+#copyright {
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.title-icon {
+    font-size: 3em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.social-icons-profile {
+    display: block;
+    float: left;
+    padding: 15px 10px;
+    list-style-type: none;
+}
+
+li {
+    display: block;
+    float: left;
+}
+
+#inline-icon {
+    margin-right: 8px;
+    color: #0b5eca;
+}
+
+.copyright-container {
+    height: 50px;
+    width: auto;
+    background: linear-gradient(to bottom right, rgb(23, 26, 27)0%, #d2e7ff 100%);
+}
+
+.left-icons {
+    margin-right: 10px;
+}
+
+#contact {
+    background-image: url("../images/scratchPad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+@media only screen and (max-width: 640px){
+#sidenav {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left:0;
+    height: 250px;
+    padding: 10px;
+    }
+
+.my-logo{
+    height: 50px;
+    width: 50px;
+    }
+
+#profile {
+    margin-top: 250px;
+    height: 650px;
+    }
+
+.profile-content {
+    margin-top: 0px;
+    }    
+}
